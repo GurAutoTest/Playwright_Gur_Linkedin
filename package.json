@@ -1,0 +1,16 @@
+{
+  "name": "playwright_gur_linkedin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:login": "playwright test tests/login.spec.js"
+  },
+    "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.8.0",
+    "dotenv": "^17.4.2"
+  }
+}
